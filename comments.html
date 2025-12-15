@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IA</title>
+	  
+<link rel="stylesheet" href="styleComments.css">
+</head>
+
+<body>
+	 <!-- Decorative Background blobs -->
+    <div class="shape-blob blob-1"></div>
+    <div class="shape-blob blob-2"></div>
+
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="biodata.html">Biodata</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="video.html">Video</a></li>    
+                <li><a href="comments.html" class="active">Comments</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        
+        <div class="page-header">
+            <h1>Get in Touch</h1>
+            <p>I love hearing from visitors! Leave a comment, or simply say hello.</p>
+        </div>
+
+        <div class="contact-container">
+            
+            <!-- Left: Multimedia Visual -->
+            <div class="contact-visual">
+                <!-- SVG Illustration representing communication -->
+                <svg viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="250" cy="200" r="150" fill="#fff0f0" />
+                    <rect x="150" y="120" width="200" height="160" rx="10" fill="#fff" stroke="#7C0100" stroke-width="4"/>
+                    <path d="M150 160 H350" stroke="#eee" stroke-width="2"/>
+                    <path d="M150 200 H350" stroke="#eee" stroke-width="2"/>
+                    <path d="M150 240 H300" stroke="#eee" stroke-width="2"/>
+                    <circle cx="250" cy="120" r="30" fill="#b38f6f" stroke="#fff" stroke-width="4"/>
+                    <path d="M320 250 L380 300 L320 300" fill="#7C0100"/>
+                    <circle cx="380" cy="280" r="5" fill="#7C0100"/>
+                    <circle cx="395" cy="270" r="5" fill="#7C0100"/>
+                </svg>
+                <p class="visual-text">I value your feedback!</p>
+            </div>
+
+            <!-- Right: Form -->
+            <div class="form-card">
+                <form id="commentForm">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Name</label>
+                        <input type="text" id="name" class="form-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email</label>
+                        <input type="email" id="email" class="form-input" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea id="message" class="form-textarea" placeholder="Write your thoughts here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Multimedia Comments Section -->
+        <div class="comments-section" id="commentsSection">
+            <h2 class="section-heading">Community Feedback</h2>
+
+            <!-- Placeholder Message (Example cards removed) -->
+             <p id="noCommentsText" style="color: #777; font-style: italic; text-align: center; padding: 20px;">
+                No comments yet. Be the first to share feedback!
+            </p>
+        </div>
+
+    </main>
+	
+	<footer>
+		<p>&copy; 2025 Ellyn Jacquelyn. All Rights Reserved.</p>
+	</footer>
+	<script src="jsComments.js"></script>
+</body>
+</html>

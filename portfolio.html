@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IA</title>
+	  
+<link rel="stylesheet" href="stylePortfolio.css">
+<script src="jsPortfolio.js"></script>
+</head>
+
+<body>
+	 <!-- Decorative Background blobs -->
+    <div class="shape-blob blob-1"></div>
+    <div class="shape-blob blob-2"></div>
+
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="biodata.html">Biodata</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="video.html">Video</a></li>    
+                <li><a href="comments.html">Comments</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        
+        <div class="portfolio-header">
+            <h1>Selected Works</h1>
+            <p>A showcase of my projects in 3D animation and graphic design.</p>
+        </div>
+
+        <div class="project-grid">
+            
+            <!-- Project 1 -->
+            <article class="project-card">
+                <div class="project-image-container">
+                    <span class="project-category">Blender</span>
+                    <!-- 
+                         INSTRUCTION: 
+                         To use your own screenshot, replace 'screenshot1.jpg' with your filename.
+                         The image will be cropped to fit, focusing on the top center.
+                    -->
+                    <img src="Images/coffee1.jpg" alt="E-Commerce Project Screenshot" class="project-img" onerror="this.src='https://via.placeholder.com/400x250/b38f6f/ffffff?text=Project+Screenshot+1'">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Building Modeling</h3>
+                    <p class="project-desc">A stylized low-poly cafe at night, featuring a large coffee cup on the roof, a "COFFEE" sign, and warm lighting from a streetlamp.</p>
+                    <a href="#" class="btn-view">View<span>&rarr;</span></a>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+                <div class="project-image-container">
+                    <span class="project-category">Blender</span>
+                    <img src="Images/front side.jpg" alt="Travel Vlog Screenshot" class="project-img" onerror="this.src='https://via.placeholder.com/400x250/7C0100/ffffff?text=Project+Screenshot+2'">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Character Modeling</h3>
+                    <p class="project-desc">A stylized dwarf character with a large red beard, holding a hammer, rendered against a dark grey background.</p>
+                    <a href="video.html" class="btn-view">View<span>&rarr;</span></a>
+                </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+                <div class="project-image-container">
+                    <span class="project-category">Blender</span>
+                    <img src="Images/perspective view baru.jpg" alt="App Design Screenshot" class="project-img" onerror="this.src='https://via.placeholder.com/400x250/333333/ffffff?text=Project+Screenshot+3'">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Isometric Modeling</h3>
+                    <p class="project-desc">A cute, stylized isometric view of a small bedroom with blue walls, a bed, a window, a lamp, a rack of books, and a picture frame.</p>
+                    <a href="#" class="btn-view">View<span>&rarr;</span></a>
+                </div>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="project-card">
+                <div class="project-image-container">
+                    <span class="project-category">Blender</span>
+                    <img src="Images/tank.jpg" alt="Poster Design Screenshot" class="project-img" onerror="this.src='https://via.placeholder.com/400x250/e6dace/333333?text=Project+Screenshot+4'">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Tank Texturing </h3>
+                    <p class="project-desc">A "Texturing" project created with Blender, showing a 3D model of a green tank.</p>
+                    <a href="#" class="btn-view">View<span>&rarr;</span></a>
+                </div>
+            </article>
+		
+			<!-- Project 5 -->
+            <article class="project-card">
+                <div class="project-image-container">
+                    <span class="project-category">Adobe Photoshop</span>
+                    <img src="Images/Exploring the mind's imagination.jpg" alt="Poster Design Screenshot" class="project-img" onerror="this.src='https://via.placeholder.com/400x250/e6dace/333333?text=Project+Screenshot+4'">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Multimedia Design Poster</h3>
+                    <p class="project-desc">The poster features a composite image of a volcano, a castle, and a floating island, to present a fantasy world.</p>
+                    <a href="#" class="btn-view">View<span>&rarr;</span></a>
+                </div>
+            </article>
+			
+			<!-- Project 6 -->
+            <article class="project-card">
+                <div class="project-image-container">
+                    <span class="project-category">Adobe Photoshop</span>
+                    <img src="Images/Poster Advertisement.jpg" alt="Poster Design Screenshot" class="project-img" onerror="this.src='https://via.placeholder.com/400x250/e6dace/333333?text=Project+Screenshot+4'">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Multimedia Design Poster</h3>
+                    <p class="project-desc">A poster to inroduce new comer to Multimedia Technology program.</p>
+                    <a href="#" class="btn-view">View<span>&rarr;</span></a>
+                </div>
+            </article>
+
+        </div>
+
+    </main>
+	<!-- THE LIGHTBOX MODAL (Hidden by default) -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage" alt="Enlarged project view">
+        <div id="caption"></div>
+    </div>
+	
+	<footer>
+		<p>&copy; 2025 Ellyn Jacquelyn. All Rights Reserved.</p>
+	</footer>
+	
+</body>
+</html>
